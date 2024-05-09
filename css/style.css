@@ -1,0 +1,169 @@
+:root {
+  --font-family: "Alegreya Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(../images/bakeryimages/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container-fluid a img {
+  width: 40%;
+}
+
+.welc,
+.sec1 h1,
+button,
+span {
+  font-family: var(--font-family);
+}
+.sec1 h1 {
+  font-size: 76px;
+  line-height: 7rem;
+}
+.sec1 .desc {
+  font-size: 24px;
+  line-height: 2.5rem;
+}
+.foot-sec1 .button1 {
+  background-color: #8e7754;
+  color: white;
+}
+.foot-sec1 .button1:hover {
+  background-color: white;
+  color: #8e7754;
+}
+.foot-sec1 .button2 {
+  background-color: transparent;
+  color: white;
+  border: white 5px solid;
+  font-family: var(--font-family);
+}
+.foot-sec1 .button2:hover {
+  background-color: white;
+  color: #8e7754;
+  font-family: var(--font-family);
+}
+
+.h2,
+.parag,
+.right span {
+  font-family: var(--font-family);
+}
+.mt-5 {
+  margin-top: 5rem !important;
+}
+.right .h2 {
+  font-size: 32px;
+}
+.right .parag {
+  font-size: 17px;
+}
+.right .icon i {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  line-height: 32px;
+  font-size: 20px;
+  position: relative;
+  top: 8px;
+  right: 13px;
+  color: #8e7754;
+}
+
+.sec3,
+.sec5 {
+  background-color: #f8f8f8;
+  width: 100%;
+}
+.sec3 .paragraphs {
+  font-family: var(--font-family);
+}
+.card {
+  --bs-card-border-width: 0;
+}
+.contects i {
+  background-color: #8e7754;
+  color: white;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+}
+.sec5 {
+  font-family: var(--font-family);
+}
+.sec5 .contacts p {
+  font-size: 17px;
+}
+.sec5 .contacts h3 {
+  font-size: 2rem;
+}
+.sec5 .contacts .icons i {
+  background-color: #8e7754;
+  color: white;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  top: 8;
+  right: 30px;
+  border-radius: 100%;
+  line-height: 36px;
+  transform: translatex(20px);
+}
+.sec6 {
+  background-color: #403d38;
+  width: 100%;
+}
+.sec6 h5,
+p {
+  color: lightgray;
+}
+.div2 p,
+.div3 p,
+.div4 p {
+  color: lightgray;
+  font-size: 20px;
+}
+.sec6 p {
+  line-height: 30px;
+}
+.div2 i,
+.div3 i,
+.div4 i {
+  color: lightgray;
+}
+.div2 span,
+.div3 span,
+.div4 span {
+  color: lightgray;
+}
+.footer {
+  background-color: #353330;
+  width: 100%;
+  height:300px
+
+}
+.footer .icon1:hover {
+  color: blue;
+}
+.footer .icon2:hover {
+  color: whitesmoke;
+}
+.footer .icon3:hover {
+  color: black;
+}
+.footer .icon4:hover {
+  color: green;
+}
+.footer p{
+  font-size: 16px;
+}
